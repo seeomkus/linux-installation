@@ -781,11 +781,13 @@ The mounted filesystems match the partition layout defined in [Step 10](#step-10
 
 ## Next Steps
 
-The Oracle Linux 9.6 OS installation is now complete. The system is ready for the Oracle Database 26ai installation process.
+The Oracle Linux 9.6 OS installation is now complete. The system is ready for the Oracle Database 26ai installation process, which consists of three stages:
 
 | Stage | Document | Description |
 |-------|----------|-------------|
-| **1** | [Oracle Database 26ai Installation on Oracle Linux 9](https://oracle-base.com/articles/26/oracle-db-26-installation-on-oracle-linux-9) | Configure kernel parameters, install required OS packages, create Oracle user/groups, run the Oracle Universal Installer (OUI), and create the database instance |
+| **1** | [Pre Install Oracle Database 26ai](https://github.com/seeomkus/oracle-installation/blob/main/oracle-database-26ai-linux-ol9/oracle_database_26ai_pre_installation_guide_oraclelinux_9_6.md) | Configure kernel parameters, install required OS packages, create Oracle user/groups, set OS resource limits, configure shared memory |
+| **2** | [Install Oracle Database 26ai](https://github.com/seeomkus/oracle-installation/blob/main/oracle-database-26ai-linux-ol9/oracle_database_26ai_installation_guide_oraclelinux_9_6.md) | Run Oracle Universal Installer (OUI), create database instance |
+| **3** | [Post Install Oracle Database 26ai](https://github.com/seeomkus/oracle-installation/blob/main/oracle-database-26ai-linux-ol9/oracle_database_26ai_post_installation_guide_oraclelinux_9_6.md) | Configure listeners, create initial database, validate installation |
 
 See the [References](#references) section below for official documentation links.
 

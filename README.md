@@ -52,12 +52,14 @@ A complete series of guides for setting up **Oracle Linux 6.10** as a platform f
 
 ### Oracle Linux 9 — Oracle Database Series
 
-A complete guide for setting up **Oracle Linux 9.6** as a platform for **Oracle Database 26ai** on VMware Workstation 16.
+A complete series of guides for setting up **Oracle Linux 9.6** as a platform for **Oracle Database 26ai** on VMware Workstation 16.
 
 | # | Guide | Description |
 |---|-------|-------------|
 | 1 | [Oracle Linux 9.6 OS Installation Guide](oraclelinux-9-for-oracle-database/oraclelinux_9_6_os_installation_guide.md) | Full OS installation on VMware Workstation 16 — language, custom partitioning, NAT network, software selection, GNOME Initial Setup account creation, post-install CLI config |
-| 2 | [Oracle Database 26ai Installation on Oracle Linux 9](https://oracle-base.com/articles/26/oracle-db-26-installation-on-oracle-linux-9) | Kernel parameters, OS packages, Oracle Universal Installer (OUI), database creation |
+| 2 | [Pre Install Oracle Database 26ai](https://github.com/seeomkus/oracle-installation/blob/main/oracle-database-26ai-linux-ol9/oracle_database_26ai_pre_installation_guide_oraclelinux_9_6.md) | Kernel parameters, OS packages, Oracle user/groups, resource limits |
+| 3 | [Install Oracle Database 26ai](https://github.com/seeomkus/oracle-installation/blob/main/oracle-database-26ai-linux-ol9/oracle_database_26ai_installation_guide_oraclelinux_9_6.md) | Oracle Universal Installer (OUI), database creation |
+| 4 | [Post Install Oracle Database 26ai](https://github.com/seeomkus/oracle-installation/blob/main/oracle-database-26ai-linux-ol9/oracle_database_26ai_post_installation_guide_oraclelinux_9_6.md) | Listener config, instance validation, initial setup |
 
 ---
 
