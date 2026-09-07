@@ -1,13 +1,13 @@
 # Oracle Linux 9.6 — Operating System Installation Guide
 
-> **Platform:** VMware Workstation 16.0.0 | **Purpose:** Preparation for Oracle Database 26 Installation
+> **Platform:** VMware Workstation 16.0.0 | **Purpose:** Preparation for Oracle Database 26ai Installation
 
 | | |
 |---|---|
 | **Document** | Installation Guide |
 | **OS Version** | Oracle Linux Server 9.6 |
 | **Platform** | VMware Workstation 16.0.0 |
-| **Purpose** | Preparation for Oracle Database 26 Installation |
+| **Purpose** | Preparation for Oracle Database 26ai Installation |
 | **Kernel** | Linux 6.12.0-1.23.3.2.el9uek.x86_64 (UEK) |
 | **Architecture** | x86-64 |
 
@@ -45,7 +45,7 @@
 11. [Next Steps](#next-steps)
 12. [References](#references)
     - [Oracle Linux Official Documentation](#1-oracle-linux-official-documentation)
-    - [Oracle Database 26 — Related Documentation](#2-oracle-database-26--related-documentation)
+    - [Oracle Database 26ai — Related Documentation](#2-oracle-database-26ai--related-documentation)
     - [Supporting Tools](#3-supporting-tools)
     - [GPG Key & Security Verification](#4-gpg-key--security-verification-for-oracle-linux)
 
@@ -53,7 +53,7 @@
 
 ## 1. Overview
 
-This guide provides detailed, step-by-step instructions for installing **Oracle Linux Server 9.6** on a **VMware Workstation 16.0.0** virtual machine. The installation is specifically configured to serve as the operating system layer for **Oracle Database 26**, with settings tuned for compatibility and performance.
+This guide provides detailed, step-by-step instructions for installing **Oracle Linux Server 9.6** on a **VMware Workstation 16.0.0** virtual machine. The installation is specifically configured to serve as the operating system layer for **Oracle Database 26ai**, with settings tuned for compatibility and performance.
 
 **Oracle Linux 9.6** is Oracle's own enterprise-grade Linux distribution, binary-compatible with Red Hat Enterprise Linux (RHEL) 9.6 and shipped with the **Unbreakable Enterprise Kernel (UEK)** by default. It is the reference platform used and supported by Oracle for Oracle Database deployments.
 
@@ -781,11 +781,11 @@ The mounted filesystems match the partition layout defined in [Step 10](#step-10
 
 ## Next Steps
 
-The Oracle Linux 9.6 OS installation is now complete. The system is ready for the Oracle Database 26 installation process.
+The Oracle Linux 9.6 OS installation is now complete. The system is ready for the Oracle Database 26ai installation process.
 
 | Stage | Document | Description |
 |-------|----------|-------------|
-| **1** | [Oracle Database 26 Installation on Oracle Linux 9](https://oracle-base.com/articles/26/oracle-db-26-installation-on-oracle-linux-9) | Configure kernel parameters, install required OS packages, create Oracle user/groups, run the Oracle Universal Installer (OUI), and create the database instance |
+| **1** | [Oracle Database 26ai Installation on Oracle Linux 9](https://oracle-base.com/articles/26/oracle-db-26-installation-on-oracle-linux-9) | Configure kernel parameters, install required OS packages, create Oracle user/groups, run the Oracle Universal Installer (OUI), and create the database instance |
 
 See the [References](#references) section below for official documentation links.
 
@@ -806,11 +806,11 @@ See the [References](#references) section below for official documentation links
 
 ---
 
-### 2. Oracle Database 26 — Related Documentation
+### 2. Oracle Database 26ai — Related Documentation
 
 | Document | URL |
 |----------|-----|
-| **Oracle DB 26 Installation on Oracle Linux 9 (oracle-base.com)** | https://oracle-base.com/articles/26/oracle-db-26-installation-on-oracle-linux-9 |
+| **Oracle DB 26ai Installation on Oracle Linux 9 (oracle-base.com)** | https://oracle-base.com/articles/26/oracle-db-26-installation-on-oracle-linux-9 |
 | **Oracle Database Documentation Library** | https://docs.oracle.com/en/database/oracle/oracle-database/ |
 | **Oracle Database Download (requires Oracle account)** | https://www.oracle.com/database/technologies/oracle-database-software-downloads.html |
 | **Oracle Support Matrix** | https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060.1.html |
