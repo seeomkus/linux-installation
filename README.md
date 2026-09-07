@@ -12,10 +12,14 @@ linux-installation/
 │   ├── almalinux_8_10_os_installation_guide.md
 │   └── images/
 │       └── *.png  (31 screenshots)
-└── oraclelinux-6-for-oracle-database/
-    ├── oraclelinux_6_10_os_installation_guide.md
+├── oraclelinux-6-for-oracle-database/
+│   ├── oraclelinux_6_10_os_installation_guide.md
+│   └── images/
+│       └── *.png  (49 screenshots)
+└── oraclelinux-9-for-oracle-database/
+    ├── oraclelinux_9_6_os_installation_guide.md
     └── images/
-        └── *.png  (49 screenshots)
+        └── *.png  (31 screenshots)
 ```
 
 ---
@@ -46,9 +50,21 @@ A complete series of guides for setting up **Oracle Linux 6.10** as a platform f
 
 ---
 
+### Oracle Linux 9 — Oracle Database Series
+
+A complete guide for setting up **Oracle Linux 9.6** as a platform for **Oracle Database 26** on VMware Workstation 16.
+
+| # | Guide | Description |
+|---|-------|-------------|
+| 1 | [Oracle Linux 9.6 OS Installation Guide](oraclelinux-9-for-oracle-database/oraclelinux_9_6_os_installation_guide.md) | Full OS installation on VMware Workstation 16 — language, custom partitioning, NAT network, software selection, GNOME Initial Setup account creation, post-install CLI config |
+| 2 | [Oracle Database 26 Installation on Oracle Linux 9](https://oracle-base.com/articles/26/oracle-db-26-installation-on-oracle-linux-9) | Kernel parameters, OS packages, Oracle Universal Installer (OUI), database creation |
+
+---
+
 ## Environment
 
 | Series | OS | Platform | Database |
 |--------|----|----------|----------|
 | **AlmaLinux 8** | AlmaLinux 8.10 (Cerulean Leopard) | VMware Workstation 16.0.0 | Oracle Database 19c |
 | **Oracle Linux 6** | Oracle Linux Server 6.10 | VMware Workstation 16.0.0 | Oracle Database 11g Release 2 |
+| **Oracle Linux 9** | Oracle Linux Server 9.6 | VMware Workstation 16.0.0 | Oracle Database 26 |
